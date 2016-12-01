@@ -9,7 +9,7 @@ public class ConectorBD {
     private final static String BDDriver = "org.postgresql.Driver";    
     private static String BDNome = "jdbc:postgresql://localhost:5432/temp";
     private String BDUsuario = "postgres";
-    private String BDSenha = "morretto";
+    private String BDSenha = "teste";
     private Connection conn = null;
     private Statement stat = null;
     
