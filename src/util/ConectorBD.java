@@ -3,13 +3,12 @@ package util;
 import java.sql.*;
 import javax.swing.JOptionPane;
 
-
 public class ConectorBD {
     
     private final static String BDDriver = "org.postgresql.Driver";    
     private static String BDNome = "jdbc:postgresql://localhost:5432/temp";
     private String BDUsuario = "postgres";
-    private String BDSenha = "teste";
+    private String BDSenha = "teste123";
     private Connection conn = null;
     private Statement stat = null;
     
